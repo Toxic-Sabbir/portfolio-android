@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Toxic Sabbir Portfolio",
+    "slug": "toxic-sabbir-portfolio",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.toxicsabbir.portfolio",
+      "permissions": []
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.toxicsabbir.portfolio"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "local-project-id"
+      }
+    }
+  }
+}

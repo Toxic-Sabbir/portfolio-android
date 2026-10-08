@@ -1,19 +1,36 @@
 # portfolio-android
 
-A modern Android portfolio app for Toxic Sabbir built with Kotlin and Jetpack Compose.
+A modern portfolio app for Toxic Sabbir, converted to an Expo app compatible with EAS Build.
 
-## Features
-- Elegant dark portfolio layout
-- About section and skill chips
-- Featured project cards
-- GitHub and contact actions
-- Ready for personalization with real profile details
+## EAS build setup
+This project is ready for Expo Application Services (EAS) builds.
+
+### 1. Install dependencies
+```bash
+npm install
+```
+
+### 2. Log in to EAS
+```bash
+npx eas login
+```
+
+### 3. Configure EAS project
+```bash
+npx eas build:configure
+```
+
+### 4. Build APK for Android
+```bash
+npx eas build --platform android --profile preview
+```
+
+This can generate an APK that can be downloaded and installed directly on your Android phone.
 
 ## Run locally
-1. Open the project in Android Studio.
-2. Install Android SDK 34 or later.
-3. Sync the Gradle files.
-4. Run the app using an Android emulator or physical device.
+```bash
+npx expo start
+```
 
 ## Repository
 https://github.com/Toxic-Sabbir/portfolio-android
